@@ -1,10 +1,22 @@
-index.html
-style.css
-assets/ (folder for images, videos, Unity builds)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Janai Campbell | Portfolio</h1>
+  <p>Showcasing my Blender and Unity projects.</p>
 
-<iframe src="Builds/WebGL/samplescene-watersimulation/" 
-        width="800" 
-        height="600" 
-        style="border:none;">
-</iframe>
+  <h2>Unity Project: Water Simulation</h2>
+  <iframe src="Builds/WebGL/samplescene-watersimulation/" 
+          width="800" height="600" style="border:none;">
+  </iframe>
+
+  <h2>Unity Project: Water Simulation (Assets Folder)</h2>
+  <iframe src="assets/unity/samplescene-watersimulation/index.html" 
+          width="960" height="600" style="border:none;">
+  </iframe>
+</body>
+</html>
 
